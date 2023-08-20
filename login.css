@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+    
+}
+
+body{
+    text-align: center;
+    width: auto;
+    height: auto;
+    font-family: lobster,'Times New Roman', Times, serif ;
+    background: url(signup.jpg);
+    
+    background-size: 100%;
+}
+h2{
+    padding: 40px;
+    font-size: 40px;
+    color: gold;
+}
+.bdr{
+    border: 0px solid black;
+    position: relative;
+    left: 38%;
+    margin-top: 70px;
+    border-radius: 85px;
+    width: 400px;
+    backdrop-filter: blur(20px);
+    height: 530px;
+    margin-bottom: 100px;
+
+
+}
+.child{
+display: flex;
+justify-content: space-around;
+align-items:center;
+font-size: larger;
+font-weight: 700;
+
+}
+input::placeholder{
+    color:lightcyan;
+    font-size: small;
+    font-weight: 500;
+    font-size: large;
+}
+
+input{
+    background-color: inherit;
+    border-radius: 50px;
+    padding: 10px;
+    color:lavender;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.475);
+    font-family: lobster,'Times New Roman', Times, serif;
+    border: none;
+    font-size: large;
+    
+    
+}
+
+input:hover{
+    background:rgba(255, 255, 255, 0.227);
+}
+button{
+    background-color:green;
+    border: none;
+    border-radius: 17px;
+    padding: 13px 50px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family:lobster,'Times New Roman', Times, serif  ;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+.ch{
+    text-decoration: none;
+    color:antiquewhite;
+    font-size: larger;
+}
+
+
+.ch:hover{
+    color: rgb(255, 0, 0);
+}
+.ch:active{
+    color:rgb(255, 255, 255);
+}
+
+button:hover{
+    background-color:rgb(39, 161, 39);
+    cursor: pointer;
+    
+    box-shadow: 1px 1px 30px lightgreen;
+}
+
+.sgup{
+    font-size: larger;
+    color:bisque;
+}
+
+.sgup a{
+    color:lemonchiffon;
+    text-decoration: none;
+    
+}
+
+.sgup a:hover{
+    color: rgb(255, 0, 0);
+}
+
+.sgup a:active{
+    color: lemonchiffon;
+}

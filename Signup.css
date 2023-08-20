@@ -1,0 +1,140 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: auto;
+    height: auto;
+    position: relative;
+
+    
+}
+
+body{
+  background-color: rgba(39, 236, 233, 0.373);
+  text-align: center;
+  background-image: url(login.jpg) ;
+ background-size: 100%;
+backface-visibility: .75;
+ background-repeat: no-repeat;
+ background-attachment: scroll;
+}
+
+
+
+  .bdr{
+    border: 0px solid rgb(0, 0, 0);
+    position: absolute;
+    left: 38%;
+    margin-top: 30px;
+    border-radius: 75px;
+    width: 400px;
+    background:rgba(254, 254, 254, 0.211);
+    backdrop-filter: blur(20px);
+    
+}
+
+h2{
+  padding-top: 20px;
+  font-family: lobster,'Times New Roman', Times, serif ;
+  padding-bottom: 20px;
+}
+
+label{
+  color: rgb(0, 0, 0);
+  text-align: right;
+  font-family:lobster,'Times New Roman', Times, serif ;
+  font-size: larger;
+}
+
+.child{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: center;
+  gap:5px;
+  padding: 17px;
+  
+}
+
+#fname,#lname,#email,#cno,#dob,#psw{
+ align-self: center;
+}
+.material-symbols-outlined,.material-symbols-sharp,.gender{
+  align-self: center;
+}
+
+button{
+  background-color: rgb(1, 142, 1);
+  color: aliceblue;
+  padding: .70rem;
+  width: 9rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  margin: .8rem;
+  border: none;
+  font-family: lobster,'Times New Roman', Times, serif ;
+  font-size:larger;
+  margin-bottom: 60px;
+
+}
+
+button:hover{
+  background-color: rgb(27, 171, 27);
+  color: aliceblue;
+  border: none;
+  font-family: lobster,'Times New Roman', Times, serif ;
+  box-shadow: 1px 1px 30px rgb(79, 255, 79);
+  
+}
+input{
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 50px;
+  font-family: lobster,'Times New Roman', Times, serif ;
+  border: none;
+  background: rgba(255, 255, 255, 0.458);
+  font-size: medium;
+}
+
+input:hover{
+  background: rgba(251, 251, 251, 0.289);
+
+  
+}
+
+input::placeholder{
+  color: black;
+  font-family: lobster,'Times New Roman', Times, serif ;
+}
+
+.login{
+  bottom: -840px;
+  left: 26px;
+  padding-bottom: 50px;
+  
+
+}
+
+.login a {
+  text-decoration: none;
+  color: lightgoldenrodyellow;
+  font-size: x-large;
+}
+
+.login a:hover{
+  color: red;
+}
+
+
+.login a:active{
+  color: lightgoldenrodyellow;
+}
